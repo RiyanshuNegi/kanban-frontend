@@ -20,9 +20,10 @@ export default function AppLayout({ children }) {
               LOGOUT
             </button>
           ) : (
-            <span className="border-2 border-gray-900 px-3 py-1 font-bold text-sm bg-gray-200">
-              Status: Logged-Out
-            </span>
+            // <span className="border-2 border-gray-900 px-3 py-1 font-bold text-sm bg-gray-200">
+            //   Status: Logged-Out
+            // </span>
+            ""
           )}
         </div>
       </nav>
