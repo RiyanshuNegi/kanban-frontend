@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kanban-bg: #f9fafb;
+}
+
+body {
+  background-color: var(--color-kanban-bg);
+}
