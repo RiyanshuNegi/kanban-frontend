@@ -21,7 +21,7 @@ export default function AppLayout({ children }) {
             </button>
           ) : (
             <span className="border-2 border-gray-900 px-3 py-1 font-bold text-sm bg-gray-200">
-              Status: Offline
+              Status: Logged-Out
             </span>
           )}
         </div>
